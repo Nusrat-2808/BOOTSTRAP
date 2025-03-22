@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    body{
+        
+    }
+</style>
+</head>
+<body>
+ <h1>Abbreviations</h1>
+ <p>It is used to mark up the abbreviations or acronym.</p>
+ <p>Such as- <abbr title="Good Morning">Gm</abbr>, <abbr title="Good Night">Gn</abbr>, <abbr title="Wait">W8</abbr>, etc.</p>  <br> 
+ <h1>Blockquotes</h1>
+ <p>It is used to present contents from another source.</p>
+ <blockquote>
+    <p class="blockquote">Codingal is on mission to inspire all the school kids.
+    <footer class="blockquote-footer">From Codingal</footer> </blockquote>
+    <h1>Multiple Codes Line</h1>
+    <p>For multiple lines of code use the pre element.</p>
+    <pre>       Codingal
+        is
+        on 
+        mission
+        to
+        inspire
+        all the 
+        school 
+        students </pre>
+ <h1>Keyboard Input</h1>
+ <p>Use <kbd>ctrl + C </kbd> to copy selected element</p>
+ <input type="color">
+ <p>Use the <mark>mark</mark> tag to <mark>highlight</mark> any part.</p>
+ <h1>Code Snippets</h1><p>Html elements: <code>span</code>, <code>section</code>, <code>div</code> shows separate sections./p>
+   <div class="container"><h1>Headings list</h1>
+    <h1 class="display-1">Codingal</h1>
+    <h1 class="display-2">Codingal</h1>
+    <h1 class="display-3">Codingal</h1>
+    <h1 class="display-4">Codingal</h1></div>
+    <div class="container"><small class="text-muted">Hello Codingal</small></div>
+    <dl>
+        <dt>COFFEE</dt>
+        <dd>WHITE HOT DRINK</dd>
+    </dl>
+</body>
+</html>
