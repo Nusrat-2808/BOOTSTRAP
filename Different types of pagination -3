@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<style>
+    body{
+        background-color: rgb(199, 223, 245);
+    }
+    header{
+            font-weight: bold;
+            text-decoration: overline underline;
+        }
+    p{text-align: justify;}
+</style>
+</head>
+<body>
+    <header><br>
+        <h1 class="display-2 text-center">Hobbies Section</h1>
+    </header>
+    <div class="container text-warning my-5 bg-info">
+        <img src="https://cdn.dribbble.com/userupload/24735821/file/original-975d6e3656d8b699e28a91ad86eab949.gif" height="300px" width="500px" alt="Girl listening to music">
+        <p><h1>Listening to music</h1>
+        Another hobby of me which I do the most nowadays is listening to music. Music has a way of lifting my mood, helping me relax, and making every moment more enjoyable. Whether I’m feeling happy, sad, or stressed, there’s always a song that matches my emotions perfectly. I love exploring different genres, from pop and rock to classical and lo-fi, depending on my mood. Listening to music also helps me focus while studying or unwind after a long day. It’s more than just a hobby for me—it’s a way to express myself, find comfort, and escape into a world of melodies and lyrics.
+    </div>
+    <div class="container">
+        <ul class="pagination">
+            <li class="page-item">
+                <a href="different types of pagination 2.html" class="page-link">Previous</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 1.html" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 2.html" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 3.html" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 4.html" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 4.html" class="page-link">Next</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
