@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<style>
+    body{
+        background-color: rgb(199, 223, 245);
+    }
+    header{
+            font-weight: bold;
+            text-decoration: overline underline;
+        }
+    p{text-align: justify;}
+</style>
+</head>
+<body>
+    <header><br>
+        <h1 class="display-2 text-center">Hobbies Section</h1>
+    </header>
+    <div class="container text-warning my-5 bg-info">
+        <img src="https://cdn.dribbble.com/userupload/37048505/file/original-085622a1213a947e1e4f9849f8dac688.png?resize=1024x768&vertical=center" height="300px" width="500px" alt="Painting">
+        <p><h1>Doing paintings</h1>
+        Now last but not the least one of my hobbies is painting. I love expressing my creativity through colors, shapes, and brushstrokes. Whether I’m working on a landscape, a portrait, or an abstract piece, painting allows me to bring my imagination to life. It helps me relax and forget about stress as I focus on blending colors and creating something unique. I enjoy experimenting with different techniques and materials, from watercolor to acrylics. Painting is not just a hobby for me—it’s a way to express my emotions, improve my skills, and bring beauty to the world around me.</p>
+    </div>
+    <div class="container">
+        <ul class="pagination">
+            <li class="page-item">
+                <a href="different types of pagination 3.html" class="page-link">Previous</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 1.html" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 2.html" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 3.html" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 4.html" class="page-link">4</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
