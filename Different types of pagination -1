@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<style>
+    body{
+        background-color: rgb(199, 223, 245);
+    }
+    header{
+            font-weight: bold;
+            text-decoration: overline underline;
+        }
+    p{text-align: justify;}
+</style>
+</head>
+<body>
+    <header><br>
+        <h1 class="display-2 text-center">Hobbies Section</h1>
+    </header>
+    <div class="container text-warning my-5 bg-info">
+        <img src="https://cdn.dribbble.com/userupload/36008955/file/original-946a69d6b8c6b4686ab336088de732fc.png?resize=1200x900&vertical=center" height="300px" width="500px" alt="Reading books"><br>
+        <p><h1>Reading books</h1>
+        One of my favorite hobbies is reading books. I love getting lost in different worlds, meeting interesting characters, and exploring new ideas through stories. Whether it's a thrilling mystery, a heartwarming novel, or an informative nonfiction book, reading always keeps me engaged and entertained. It helps me relax, improves my vocabulary, and expands my knowledge about various topics. I enjoy spending quiet afternoons with a good book, completely immersed in its pages. Reading is not just a hobby for me; it’s a way to learn, imagine, and escape into a world of endless possibilities.</p>
+    </div>
+    <div class="container">
+        <ul class="pagination">
+            <li class="page-item">
+                <a href="different types of pagination 1.html" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 2.html" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 3.html" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 4.html" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 2.html" class="page-link">Next</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
