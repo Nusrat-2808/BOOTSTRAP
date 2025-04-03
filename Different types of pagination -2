@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+</script>
+<style>
+    body{
+        background-color: rgb(199, 223, 245);
+    }
+    header{
+            font-weight: bold;
+            text-decoration: overline underline;
+        }
+    p{text-align: justify;}
+</style>
+</head>
+<body>
+    <header><br>
+        <h1 class="display-2 text-center">Hobbies Section</h1>
+    </header>
+</div>
+<div class="container text-warning my-5 bg-info">
+    <img src="https://cdn.dribbble.com/userupload/12866585/file/original-3f22c8a3e8cfceee9b161a13c0d876db.png?resize=1024x768&vertical=center" height="300px" width="500px" alt="A girl with a cat">
+    <p><h1>Playing with my cat</h1>
+    Another of my favorite hobbies is playing with my cat. Whether it's chasing a toy mouse, batting at a feather wand, or simply running around the house together, spending time with my furry friend always brings me joy. My cat has a playful and curious personality, making every game exciting and unpredictable. Sometimes, she even surprises me by pouncing out of nowhere or playfully swatting at my feet. Playing with her is not only fun but also a great way to bond and keep her active and happy. No matter how busy my day is, I always make time for our little play sessions, as they bring me comfort and laughter.</p>
+</div>
+    <div class="container">
+        <ul class="pagination">
+            <li class="page-item">
+                <a href="different types of pagination 1.html" class="page-link">Previous</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 1.html" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 2.html" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 3.html" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 4.html" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+                <a href="different types of pagination 3.html" class="page-link">Next</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
