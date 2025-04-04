@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    body{
+        background-color: skyblue;
+    }
+    .card{
+        margin-top: 80px;
+        background-color:darkseagreen;
+        background-position: center;
+    }
+    .card-text{color: indigo;}
+    img{margin-left: 50px;
+        margin-top: 25px;
+    }
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="My portfolio.html" class="navbar-brand">NUSRAT TASNIM SAYEEMA</a>
+        </div>
+        <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="My portfolio.html">Home</a></li>
+                    <li><a href="#About-me">About me</a></li>
+                    <li><a href="#Work-show">My Work Examples</a></li>
+                    <li><a href="hobbies section.html">My Hobbies</a></li>
+                    <li><a href="#Qualifications">Qualifications & Certificates</a></li>
+                    <li><a href="#Contact-me">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </nav>
+    <div id="About-me" class="container">
+        <h1 class="jumbotron text-center">About me</h1>
+        <div class="container">
+            <div class="card" style="width: 350px;height: 550px;">
+                <img src="portfolio.jpg" height="400px" width="250px" alt="" class="card-img-top p-3">
+                <div class="card-body">
+                    <h4 class="card-title text-center text-primary">Nusrat Tasnim Sayeema</h4>
+                    <p class="card-text text-center">A learner of Codingal</p>
+                    <a href="#About-me" class="btn btn-warning ">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <p>Hi I am <b>Sayeema</b>!<br>
+            I am <mark>16 years</mark> old.<br>
+            <em>My favourite subject is <strong>Mathematics</strong> and <strong>Science</strong>. I like Reading books in my leisure time.</em><br>
+            I'm also a learner at Codingal now.I love coding a lot. I'm currently working on HTML, CSS & Bootstrap. <br>
+            I'm from Bangladesh. <br>
+            <b>My Github Account:</b>Nusrat-2808</p>
+    </div>
+    <div id="Work-show" class="container-fluid">
+        <h1 class="jumbotron text-center">My Work Examples</h1>
+        <div class="card">
+            <div class="card-body" style="height: 150px;">
+                <a href="https://github.com/Nusrat-2808/BOOTSTRAP.git" class="btn btn-danger">BOOTSTRAP</a><br><br>
+                <a href="https://github.com/Nusrat-2808/HTML-CSS.git" class="btn btn-primary">CSS</a><br><br>
+                <a href="https://github.com/Nusrat-2808/2nd-project.git" class="btn btn-success">HTML</a>
+            </div>
+        </div>
+    </div>
+    <div id="Qualifications" class="container">
+        <h1 class="dispay-1 bg-primary text-center">My Qualifications & Certificates</h1>
+        <img src="capture_20250329224318429.bmp" alt="">
+    </div>
+    <footer id="Contact-me">
+        <div class="container">
+            <h1 class="display-2">Contact me</h1>
+            <b>Phone no:</b>01******499
+        </div>
+    </footer>
+</body>
+</html>
