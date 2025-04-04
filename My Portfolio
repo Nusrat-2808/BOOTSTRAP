@@ -14,13 +14,20 @@
         background-color: skyblue;
     }
     .card{
-        margin-top: 80px;
         background-color:darkseagreen;
         background-position: center;
     }
     .card-text{color: indigo;}
     img{margin-left: 50px;
         margin-top: 25px;
+    }
+    div#About-me{
+        margin-top: 100px;
+    }
+    .intro::first-letter{
+        font-size: 200%;
+        font-weight: bold;
+        color: aliceblue;
     }
 </style>
 </head>
@@ -62,22 +69,69 @@
                 </div>
             </div>
         </div>
-        <p>Hi I am <b>Sayeema</b>!<br>
-            I am <mark>16 years</mark> old.<br>
-            <em>My favourite subject is <strong>Mathematics</strong> and <strong>Science</strong>. I like Reading books in my leisure time.</em><br>
-            I'm also a learner at Codingal now.I love coding a lot. I'm currently working on HTML, CSS & Bootstrap. <br>
-            I'm from Bangladesh. <br>
-            <b>My Github Account:</b>Nusrat-2808</p>
+        <p class="intro">Hi I am <b>Sayeema</b>!</p>
+            <p class="intro">I am <mark>16 years</mark> old.</p>
+            <p class="intro"><em>My favourite subject is <strong>Mathematics</strong> and <strong>Science</strong>. I like Reading books in my leisure time.</em></p>
+            <p class="intro">I'm also a learner at Codingal now.I love coding a lot. I'm currently working on HTML, CSS & Bootstrap. </p>
+            <p class="intro">I'm from Bangladesh. </p>
+            <p class="intro"><b>My Github Account:</b>Nusrat-2808</p>
+            <pre>                I'm looking
+                forward to 
+                create your
+                works with my
+                imagination 
+                in an 
+                innovative way. 
+            </pre>
     </div>
     <div id="Work-show" class="container-fluid">
         <h1 class="jumbotron text-center">My Work Examples</h1>
-        <div class="card">
-            <div class="card-body" style="height: 150px;">
-                <a href="https://github.com/Nusrat-2808/BOOTSTRAP.git" class="btn btn-danger">BOOTSTRAP</a><br><br>
-                <a href="https://github.com/Nusrat-2808/HTML-CSS.git" class="btn btn-primary">CSS</a><br><br>
-                <a href="https://github.com/Nusrat-2808/2nd-project.git" class="btn btn-success">HTML</a>
+            <div>
+                <button><a href="https://github.com/Nusrat-2808/BOOTSTRAP.git" class="btn btn-danger">BOOTSTRAP</a></button><br><br>
+                <button><a href="https://github.com/Nusrat-2808/HTML-CSS.git" class="btn btn-primary">CSS</a></button><br><br>
+                <button><a href="https://github.com/Nusrat-2808/2nd-project.git" class="btn btn-success">HTML</a></button>
             </div>
-        </div>
+            <div class="container">
+                <h2>Some pics of my work</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <video height="500px" controls src="health.mp4" autoplay></video>
+                        </div>
+                        <div class="item">
+                            <img src="health1.bmp" alt="pic1">
+                        </div>
+                        <div class="item">
+                            <img src="health2.bmp" alt="pic2">
+                        </div>
+                        <div class="item">
+                            <video height="500px" controls src="School Website.mp4" autoplay></video>
+                        </div>
+                        <div class="item">
+                            <img src="school1.bmp" alt="pic3">
+                        </div>
+                        <div class="item">
+                            <img src="school2.bmp" alt="pic4">
+                        </div>
+                    </div>
+                    <a href="" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only text-success">PREVIOUS</span>
+                    </a>
+                    <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only text-success">NEXT</span>
+                    </a>
+                </div>
+            </div>
     </div>
     <div id="Qualifications" class="container">
         <h1 class="dispay-1 bg-primary text-center">My Qualifications & Certificates</h1>
