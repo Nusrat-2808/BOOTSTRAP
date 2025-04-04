@@ -21,10 +21,33 @@
         }
     </style>
 </head>
-<body>
-    <header><br>
-        <h1 class="display-1 text-center">Hobbies Section</h1>
-    </header>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="My portfolio.html" class="navbar-brand">NUSRAT TASNIM SAYEEMA</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="My portfolio.html">Home</a></li>
+                        <li><a href="My portfolio.html#About-me">About me</a></li>
+                        <li><a href="My portfolio.html#Work-show">My Work Examples</a></li>
+                        <li><a href="hobbies section.html#hobbies">My Hobbies</a></li>
+                        <li><a href="My portfolio.html#Qualifications">Qualifications & Certificates</a></li>
+                        <li><a href="My portfolio.html#Contact-me">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav><br><br>
+        <h1 id="hobbies" class="display-2 text-center">Hobbies Section</h1>
     <div class="container text-warning my-5">
         <p><img src="https://cdn.dribbble.com/userupload/36008955/file/original-946a69d6b8c6b4686ab336088de732fc.png?resize=1200x900&vertical=center" height="200px" alt="Reading books" style="float: right;">
         <h1>Reading books</h1>
